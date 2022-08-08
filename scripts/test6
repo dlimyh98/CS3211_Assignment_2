@@ -1,0 +1,11 @@
+./engine socket & sleep 1
+
+for file in ./test6_files/*
+do
+bash $file | ./client socket &
+pids[${i+1}]=$!
+done
+
+for pid in ${pids[*]}; do
+wait $pid
+done

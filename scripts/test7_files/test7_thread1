@@ -1,0 +1,14 @@
+echo B 100 GOOG 2000 20
+echo B 101 AMZN 2000 20
+echo B 102 META 2000 20
+echo B 103 TSLA 2000 20
+echo B 104 NSLE 2000 20
+echo B 105 PFZR 2000 20
+echo B 106 MCDN 2000 20
+echo B 107 INTL 2000 20
+echo C 100
+echo C 112
+echo C 103
+echo C 115
+echo C 107
+echo C 119

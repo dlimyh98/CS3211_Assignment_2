@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Check compilation",
+      "setup": "sudo snap install go --classic",
+      "run": "export HOME=\"$(getent passwd \"$(whoami)\" | cut -d: -f6)\" && go build -o engine *.go && test -x ./engine",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": null
+    }
+  ]
+}
